@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPet</title>
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header1">
+        <div class="logo">
+            <img src="./images/logoPetNew.jpeg" />
+        </div>
+        <nav class="menulink">
+            <ul>
+                <li><a href="./index.html">HOME </a></li>
+                <li><a href="./products.html">PRODUCTS </a></li>
+                <li><a href="./aboutus.html">ABOUT US </a></li>
+                <li><a href="./contactus.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="general">
+        <div class="w-100">
+            <div class="abt-w-90 row">
+                <div class="col-3 m-20">
+                    <h3 class="ab-h3">Contact <span>Information</span></h3>
+                    <p class="ab-us">
+                        <span class="text-info p-20">Address</span>
+                        <span class="disc pb-5">Puppy Love Pet Store</span>
+                        <span class="disc pt-0"> 123 Main Street
+                            Cityville, USA.</span>
+                    </p>
+                    <p class="ab-us">
+                        <span class="text-info p-20">Telephone</span>
+                        <span class="disc pb-5">+1 123123123123</span>
+                        <span class="disc pt-0"> +1 123123123124</span>
+                    </p>
+                </div>
+                <div class="col-6 m-20">
+                    <h3 class="ab-h3">Feedback</span></h3>
+                    <form id="contact-form" class="contact-form">
+                        <!--  <div class="success"> Contact form submitted!
+                    <strong>We will be in touch soon.</strong>
+                </div> -->
+                        <fieldset>
+                            <div class="coll-1">
+                                <div class="txt-form">Name<span>*</span></div>
+                                <label class="name">
+                                    <input type="text" value="Name*"><br>
+                                    <span class="error">*This is not a valid name.</span> <span class="empty">*This
+                                        field is
+                                        required.</span> </label>
+                            </div>
+                            <div class="coll-2">
+                                <div class="txt-form">E-mail<span>*</span></div>
+                                <label class="email">
+                                    <input type="email" value="E-mail*"><br>
+                                    <span class="error">*This is not a valid email address.</span> <span
+                                        class="empty">*This
+                                        field is required.</span> </label>
+                            </div>
+                            <div class="coll-3">
+                                <div class="txt-form">Telephone</div>
+                                <label class="phone notRequired">
+                                    <input type="tel" value="Telephone"><br>
+                                    <span class="error">*This is not a valid phone number.</span> <span
+                                        class="empty">*This
+                                        field is required.</span> </label>
+                            </div>
+                            <div class="coll-3">
+                                <div class="txt-form">Gender</div>
+                                <label style="display: flex;">
+                                    <input type="radio" style="height: 15px;margin: 5px;padding: 0;width: 30px;"
+                                        id="Male" name="Gender" value="Male">
+                                    <label style="margin-top: 5px;" for="Male">Male</label><br>
+                                    <input type="radio" style="height: 15px;margin: 5px;padding: 0;width: 30px;"
+                                        id="Female" name="Gender" value="Female">
+                                    <label style="margin-top: 5px;" for="Female">Female</label><br>
+                                </label>
+                            </div>
+                            <div class="clear"></div>
+                            <div>
+                                <div class="txt-form">Comment<span>*</span></div>
+                                <label class="message">
+                                    <textarea>Comment*</textarea><br>
+                                    <span class="error">*The message is too short.</span> <span class="empty">*This
+                                        field is
+                                        required.</span> </label>
+                            </div>
+                            <div class="clear"></div>
+                            <input style="  width: 100px;
+                    background: var(--p-bg-clr);
+                    color: var(--p-font-clr);" type="Submit" value="Submit">
+                            <!--    <div class="buttons-wrapper"><a class="btn" data-type="submit">submit</a> <span>*Required
+                            Fields</span>
+                    </div> -->
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <aside class="banner">
+            <h3>Best selling pets</h3>
+            <div class="bimage">
+                <h4>Border Collie</h4>
+                <img src="./images/Dog_new.PNG" />
+            </div>
+            <div class="bimage">
+                <h4>Golden Retriever</h4>
+                <img src="./images/dog2_new.PNG" />
+            </div>
+            <div class="bimage">
+                <h4>Hamster</h4>
+                <img src="./images/hamster_new.PNG" />
+            </div>
+            <div class="bimage">
+                <h4>Parrot</h4>
+                <img src="./images/parrot.PNG" />
+            </div>
+        </aside>
+    </div>
+    <footer>
+        <div class="footContact">
+            <p>Puppy Love Pet Store</p>
+            <p>123 Main Street</p>
+            <p>Cityville, USA</p>
+        </div>
+        <div class="footContactRight">
+            <div class="sm">
+                <div></div>
+                <a href="https://www.instagram.com/">
+                    <img src="./images/Instagram2.png" />
+                </a>
+                <a href="https://www.facebook.com/">
+                    <img src="./images/facebook.png" />
+                </a>
+                <a href="https://twitter.com/i/flow/login">
+                    <img src="./images/Twitter.png" />
+                </a>
+            </div>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: info@puppylovestore.com</p>
+        </div>
+        <br>
+        <div class="allright">
+            <p>2024 Our Company. All rights reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>
