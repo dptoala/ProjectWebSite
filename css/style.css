@@ -218,6 +218,11 @@ p {
     width: 180px;
 }
 
+.option-pr{
+  background-color: var(--p-bg-body-clr);
+  padding: 2px 10px;
+}
+
 .banner {
   height: auto;
   /* right: 0; */
